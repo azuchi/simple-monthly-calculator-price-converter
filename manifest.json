@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "Chrome Extension to convert the amount of AWS Simple Monthly Calculator in JPY currency",
   "web_accessible_resources": ["jquery-2.0.3.min.map"],
-  "permissions": ["tabs"],
+  "permissions": ["http://www.freecurrencyconverterapi.com/*"],
   "background": {
     "scripts": ["jquery-2.0.3.min.js","background.js"]
   },

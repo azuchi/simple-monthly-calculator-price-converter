@@ -20,9 +20,9 @@ function loadCountry() {
     var rate = response.value;
     var header = $('div.billLabel').html();
     var price = + header.substring(header.lastIndexOf("$") + 1, header.lastIndexOf(")"));
-    var result = "[ " + String( Math.round(price * rate) ).replace( /(\d)(?=(\d\d\d)+(?!\d))/g, '$1,' ) + " 円 ]";
-    if(header.indexOf("[") > -1){
-      header = header.substring(0, header.indexOf("["));
+    var result = " [ " + String( Math.round(price * rate) ).replace( /(\d)(?=(\d\d\d)+(?!\d))/g, '$1,' ) + " 円]";
+    if(header.indexOf("[ ") > -1){
+      header = header.substring(0, header.indexOf(" [ "));
     }
     $('div.billLabel').html(header + result);
   });
