@@ -7,3 +7,4 @@ This is a Chrome Extension that converts the amount of AWS Simple Monthly Calcul
 
 Install from Google Chrome Web Store.
 
+[https://chrome.google.com/webstore/detail/kbonpapkpcembkgmbdnnjkphddnllkom](https://chrome.google.com/webstore/detail/kbonpapkpcembkgmbdnnjkphddnllkom)
